@@ -58,7 +58,7 @@ if __name__ == "__main__":
     def get_otp():
         return input("enter otp: ")
 
-    linkedin = login("stacey060@hotmail.com", "aut#8in&8", get_otp)
+    linkedin = login("<email/username>", "<password>", get_otp)
     linkedin.client.save_screenshot("check.png")
     print(linkedin.image_url)
     print(linkedin.profile_name)
